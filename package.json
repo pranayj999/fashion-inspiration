@@ -1,0 +1,25 @@
+{
+  "name": "fashion-inspiration",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix app",
+    "build": "npm run build --prefix app",
+    "start": "npm run start --prefix app",
+    "test": "vitest run",
+    "test:watch": "vitest",
+    "test:e2e": "playwright test",
+    "eval:labels": "tsx eval/generate-labels.ts",
+    "eval": "tsx eval/evaluate.ts",
+    "eval:download": "tsx eval/download-images.ts",
+    "eval:sync": "tsx eval/sync-to-app.ts",
+    "eval:import": "tsx eval/import-to-library.ts"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.49.1",
+    "@types/node": "^22.10.2",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  }
+}
