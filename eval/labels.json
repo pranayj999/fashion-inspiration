@@ -1,0 +1,1190 @@
+[
+  {
+    "id": "fashion-001",
+    "filename": "fashion-001.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1536619/pexels-photo-1536619.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in white sleeveless summer dress outdoors",
+    "expected": {
+      "garmentType": "dress",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-002",
+    "filename": "fashion-002.jpg",
+    "imageUrl": "https://images.pexels.com/photos/985635/pexels-photo-985635.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in black blazer and trousers business look",
+    "expected": {
+      "garmentType": "blazer",
+      "style": "business",
+      "material": "wool blend",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-003",
+    "filename": "fashion-003.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1126993/pexels-photo-1126993.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in red evening dress",
+    "expected": {
+      "garmentType": "dress",
+      "style": "elegant",
+      "material": "satin",
+      "occasion": "evening",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-004",
+    "filename": "fashion-004.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1462637/pexels-photo-1462637.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in off-shoulder floral dress",
+    "expected": {
+      "garmentType": "dress",
+      "style": "romantic",
+      "material": "chiffon",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-005",
+    "filename": "fashion-005.jpg",
+    "imageUrl": "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in denim jacket street style",
+    "expected": {
+      "garmentType": "jacket",
+      "style": "streetwear",
+      "material": "denim",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-006",
+    "filename": "fashion-006.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1310650/pexels-photo-1310650.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in striped shirt and jeans",
+    "expected": {
+      "garmentType": "shirt",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-007",
+    "filename": "fashion-007.jpg",
+    "imageUrl": "https://images.pexels.com/photos/2880507/pexels-photo-2880507.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in beige trench coat",
+    "expected": {
+      "garmentType": "coat",
+      "style": "classic",
+      "material": "cotton",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-008",
+    "filename": "fashion-008.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1926769/pexels-photo-1926769.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in yellow sundress",
+    "expected": {
+      "garmentType": "dress",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-009",
+    "filename": "fashion-009.jpg",
+    "imageUrl": "https://images.pexels.com/photos/994523/pexels-photo-994523.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in suit formal wear",
+    "expected": {
+      "garmentType": "suit",
+      "style": "formal",
+      "material": "wool",
+      "occasion": "formal",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-010",
+    "filename": "fashion-010.jpg",
+    "imageUrl": "https://images.pexels.com/photos/2687181/pexels-photo-2687181.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in black leather jacket",
+    "expected": {
+      "garmentType": "jacket",
+      "style": "edgy",
+      "material": "leather",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-011",
+    "filename": "fashion-011.jpg",
+    "imageUrl": "https://images.pexels.com/photos/2887720/pexels-photo-2887720.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in knit sweater and skirt",
+    "expected": {
+      "garmentType": "sweater",
+      "style": "preppy",
+      "material": "knit",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-012",
+    "filename": "fashion-012.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1040945/pexels-photo-1040945.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in hoodie streetwear",
+    "expected": {
+      "garmentType": "hoodie",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-013",
+    "filename": "fashion-013.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3070063/pexels-photo-3070063.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in maxi boho dress",
+    "expected": {
+      "garmentType": "dress",
+      "style": "bohemian",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-014",
+    "filename": "fashion-014.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3094799/pexels-photo-3094799.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in athletic leggings and sports top",
+    "expected": {
+      "garmentType": "activewear",
+      "style": "athletic",
+      "material": "synthetic",
+      "occasion": "athletic",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-015",
+    "filename": "fashion-015.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3184405/pexels-photo-3184405.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in pink cocktail dress",
+    "expected": {
+      "garmentType": "dress",
+      "style": "party",
+      "material": "satin",
+      "occasion": "evening",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-016",
+    "filename": "fashion-016.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3229343/pexels-photo-3229343.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in white t-shirt and jeans minimal look",
+    "expected": {
+      "garmentType": "t-shirt",
+      "style": "minimalist",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-017",
+    "filename": "fashion-017.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3317729/pexels-photo-3317729.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in plaid skirt preppy outfit",
+    "expected": {
+      "garmentType": "skirt",
+      "style": "preppy",
+      "material": "wool",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-018",
+    "filename": "fashion-018.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3525903/pexels-photo-3525903.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in oversized coat layered street style",
+    "expected": {
+      "garmentType": "coat",
+      "style": "streetwear",
+      "material": "wool",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-019",
+    "filename": "fashion-019.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3624622/pexels-photo-3624622.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in silk blouse work outfit",
+    "expected": {
+      "garmentType": "blouse",
+      "style": "business",
+      "material": "silk",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-020",
+    "filename": "fashion-020.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3711677/pexels-photo-3711677.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in polo shirt smart casual",
+    "expected": {
+      "garmentType": "polo",
+      "style": "smart casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-021",
+    "filename": "fashion-021.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3771837/pexels-photo-3771837.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in denim jacket and dress",
+    "expected": {
+      "garmentType": "jacket",
+      "style": "casual",
+      "material": "denim",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-022",
+    "filename": "fashion-022.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3838389/pexels-photo-3838389.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in white wedding-style gown",
+    "expected": {
+      "garmentType": "gown",
+      "style": "formal",
+      "material": "satin",
+      "occasion": "formal",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-023",
+    "filename": "fashion-023.jpg",
+    "imageUrl": "https://images.pexels.com/photos/3890579/pexels-photo-3890579.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in patterned kimono-inspired robe",
+    "expected": {
+      "garmentType": "robe",
+      "style": "bohemian",
+      "material": "silk",
+      "occasion": "casual",
+      "location": {
+        "continent": "Asia",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-024",
+    "filename": "fashion-024.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4007672/pexels-photo-4007672.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in flannel shirt casual outdoors",
+    "expected": {
+      "garmentType": "shirt",
+      "style": "casual",
+      "material": "flannel",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-025",
+    "filename": "fashion-025.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4132364/pexels-photo-4132364.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in sequin party top",
+    "expected": {
+      "garmentType": "top",
+      "style": "party",
+      "material": "sequin",
+      "occasion": "evening",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-026",
+    "filename": "fashion-026.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4210607/pexels-photo-4210607.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in linen jumpsuit minimalist",
+    "expected": {
+      "garmentType": "jumpsuit",
+      "style": "minimalist",
+      "material": "linen",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-027",
+    "filename": "fashion-027.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4303480/pexels-photo-4303480.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in bomber jacket streetwear",
+    "expected": {
+      "garmentType": "jacket",
+      "style": "streetwear",
+      "material": "nylon",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-028",
+    "filename": "fashion-028.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4380976/pexels-photo-4380976.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in turtleneck sweater winter look",
+    "expected": {
+      "garmentType": "sweater",
+      "style": "classic",
+      "material": "wool",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-029",
+    "filename": "fashion-029.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4458336/pexels-photo-4458336.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in pleated midi skirt",
+    "expected": {
+      "garmentType": "skirt",
+      "style": "elegant",
+      "material": "polyester",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-030",
+    "filename": "fashion-030.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1183266/pexels-photo-1183266.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in chinos and button-down shirt",
+    "expected": {
+      "garmentType": "shirt",
+      "style": "smart casual",
+      "material": "cotton",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-031",
+    "filename": "fashion-031.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1204463/pexels-photo-1204463.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in crop top and high-waist trousers street style",
+    "expected": {
+      "garmentType": "top",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-032",
+    "filename": "fashion-032.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4586665/pexels-photo-4586665.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in faux fur coat luxury winter",
+    "expected": {
+      "garmentType": "coat",
+      "style": "luxury",
+      "material": "faux fur",
+      "occasion": "evening",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-033",
+    "filename": "fashion-033.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4641822/pexels-photo-4641822.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in vest and dress shirt formal",
+    "expected": {
+      "garmentType": "vest",
+      "style": "formal",
+      "material": "wool",
+      "occasion": "formal",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-034",
+    "filename": "fashion-034.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4676645/pexels-photo-4676645.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in wrap dress office wear",
+    "expected": {
+      "garmentType": "dress",
+      "style": "business",
+      "material": "jersey",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-035",
+    "filename": "fashion-035.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4750306/pexels-photo-4750306.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in graphic tee and denim skirt",
+    "expected": {
+      "garmentType": "t-shirt",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-036",
+    "filename": "fashion-036.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4768290/pexels-photo-4768290.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in tracksuit athletic wear",
+    "expected": {
+      "garmentType": "tracksuit",
+      "style": "athletic",
+      "material": "polyester",
+      "occasion": "athletic",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-037",
+    "filename": "fashion-037.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4834896/pexels-photo-4834896.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in embroidered ethnic top",
+    "expected": {
+      "garmentType": "top",
+      "style": "bohemian",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-038",
+    "filename": "fashion-038.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4881617/pexels-photo-4881617.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in camel wool coat classic",
+    "expected": {
+      "garmentType": "coat",
+      "style": "classic",
+      "material": "wool",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-039",
+    "filename": "fashion-039.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1229414/pexels-photo-1229414.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in leather biker jacket",
+    "expected": {
+      "garmentType": "jacket",
+      "style": "edgy",
+      "material": "leather",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-040",
+    "filename": "fashion-040.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in slip dress minimalist evening",
+    "expected": {
+      "garmentType": "dress",
+      "style": "minimalist",
+      "material": "silk",
+      "occasion": "evening",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-041",
+    "filename": "fashion-041.jpg",
+    "imageUrl": "https://images.pexels.com/photos/4972001/pexels-photo-4972001.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in puffer jacket winter streetwear",
+    "expected": {
+      "garmentType": "jacket",
+      "style": "streetwear",
+      "material": "nylon",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-042",
+    "filename": "fashion-042.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5025665/pexels-photo-5025665.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in shorts and linen shirt summer",
+    "expected": {
+      "garmentType": "shorts",
+      "style": "casual",
+      "material": "linen",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-043",
+    "filename": "fashion-043.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5060867/pexels-photo-5060867.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in cardigan layered casual",
+    "expected": {
+      "garmentType": "cardigan",
+      "style": "casual",
+      "material": "knit",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-044",
+    "filename": "fashion-044.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1251198/pexels-photo-1251198.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in evening gown red carpet style",
+    "expected": {
+      "garmentType": "gown",
+      "style": "formal",
+      "material": "satin",
+      "occasion": "formal",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-045",
+    "filename": "fashion-045.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5110847/pexels-photo-5110847.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in suit navy business formal",
+    "expected": {
+      "garmentType": "suit",
+      "style": "business",
+      "material": "wool",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-046",
+    "filename": "fashion-046.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5138894/pexels-photo-5138894.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in wide-leg trousers minimalist",
+    "expected": {
+      "garmentType": "trousers",
+      "style": "minimalist",
+      "material": "linen",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-047",
+    "filename": "fashion-047.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5184112/pexels-photo-5184112.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in off-duty model denim on denim",
+    "expected": {
+      "garmentType": "jeans",
+      "style": "streetwear",
+      "material": "denim",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-048",
+    "filename": "fashion-048.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5201876/pexels-photo-5201876.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in summer floral midi dress",
+    "expected": {
+      "garmentType": "dress",
+      "style": "romantic",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-049",
+    "filename": "fashion-049.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5255632/pexels-photo-5255632.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in overcoat winter classic",
+    "expected": {
+      "garmentType": "coat",
+      "style": "classic",
+      "material": "wool",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-050",
+    "filename": "fashion-050.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5288474/pexels-photo-5288474.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in athleisure sports bra and leggings",
+    "expected": {
+      "garmentType": "activewear",
+      "style": "athletic",
+      "material": "spandex",
+      "occasion": "athletic",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-051",
+    "filename": "fashion-051.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5326908/pexels-photo-5326908.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in trench and scarf Parisian-inspired",
+    "expected": {
+      "garmentType": "coat",
+      "style": "classic",
+      "material": "cotton",
+      "occasion": "workwear",
+      "location": {
+        "continent": "Europe",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-052",
+    "filename": "fashion-052.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5378708/pexels-photo-5378708.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in Hawaiian shirt vacation casual",
+    "expected": {
+      "garmentType": "shirt",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-053",
+    "filename": "fashion-053.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5409812/pexels-photo-5409812.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in power suit blazer and trousers",
+    "expected": {
+      "garmentType": "blazer",
+      "style": "business",
+      "material": "wool",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-054",
+    "filename": "fashion-054.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1261425/pexels-photo-1261425.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in crochet top festival boho",
+    "expected": {
+      "garmentType": "top",
+      "style": "bohemian",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-055",
+    "filename": "fashion-055.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1281819/pexels-photo-1281819.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in cargo pants utility streetwear",
+    "expected": {
+      "garmentType": "trousers",
+      "style": "streetwear",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-056",
+    "filename": "fashion-056.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5611962/pexels-photo-5611962.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in satin slip skirt evening",
+    "expected": {
+      "garmentType": "skirt",
+      "style": "elegant",
+      "material": "satin",
+      "occasion": "evening",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-057",
+    "filename": "fashion-057.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5699456/pexels-photo-5699456.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in parka outdoor winter",
+    "expected": {
+      "garmentType": "jacket",
+      "style": "casual",
+      "material": "nylon",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-058",
+    "filename": "fashion-058.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5732448/pexels-photo-5732448.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in vest and tie wedding guest formal",
+    "expected": {
+      "garmentType": "suit",
+      "style": "formal",
+      "material": "wool",
+      "occasion": "formal",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-059",
+    "filename": "fashion-059.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5816292/pexels-photo-5816292.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in oversized blazer and bike shorts street",
+    "expected": {
+      "garmentType": "blazer",
+      "style": "streetwear",
+      "material": "polyester",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-060",
+    "filename": "fashion-060.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5889475/pexels-photo-5889475.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in knit dress winter casual",
+    "expected": {
+      "garmentType": "dress",
+      "style": "casual",
+      "material": "knit",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-061",
+    "filename": "fashion-061.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5903930/pexels-photo-5903930.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in denim shirt workwear casual",
+    "expected": {
+      "garmentType": "shirt",
+      "style": "casual",
+      "material": "denim",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-062",
+    "filename": "fashion-062.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5931583/pexels-photo-5931583.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in halter top summer evening",
+    "expected": {
+      "garmentType": "top",
+      "style": "party",
+      "material": "cotton",
+      "occasion": "evening",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-063",
+    "filename": "fashion-063.jpg",
+    "imageUrl": "https://images.pexels.com/photos/5997597/pexels-photo-5997597.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in plaid blazer office style",
+    "expected": {
+      "garmentType": "blazer",
+      "style": "business",
+      "material": "wool",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-064",
+    "filename": "fashion-064.jpg",
+    "imageUrl": "https://images.pexels.com/photos/6063283/pexels-photo-6063283.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Man in sweatshirt loungewear",
+    "expected": {
+      "garmentType": "sweatshirt",
+      "style": "casual",
+      "material": "cotton",
+      "occasion": "casual",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-065",
+    "filename": "fashion-065.jpg",
+    "imageUrl": "https://images.pexels.com/photos/6109274/pexels-photo-6109274.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in leather pants edgy night out",
+    "expected": {
+      "garmentType": "trousers",
+      "style": "edgy",
+      "material": "leather",
+      "occasion": "evening",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  },
+  {
+    "id": "fashion-066",
+    "filename": "fashion-066.jpg",
+    "imageUrl": "https://images.pexels.com/photos/1308881/pexels-photo-1308881.jpeg?auto=compress&cs=tinysrgb&w=640&h=800&fit=crop",
+    "source": "pexels",
+    "curatorNote": "Woman in white shirt dress minimalist work",
+    "expected": {
+      "garmentType": "dress",
+      "style": "minimalist",
+      "material": "cotton",
+      "occasion": "workwear",
+      "location": {
+        "continent": "unknown",
+        "country": "unknown",
+        "city": "unknown"
+      }
+    }
+  }
+]

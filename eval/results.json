@@ -1,0 +1,2770 @@
+{
+  "generatedAt": "2026-06-03T03:05:14.908Z",
+  "mode": "claude",
+  "model": "claude-sonnet-4-6",
+  "dataset": {
+    "source": "pexels-street-fashion",
+    "count": 66,
+    "labelsFile": "eval/labels.json"
+  },
+  "summary": {
+    "garmentType": {
+      "accuracy": 0.015384615384615385,
+      "correct": 1,
+      "total": 65
+    },
+    "style": {
+      "accuracy": 0.06153846153846154,
+      "correct": 4,
+      "total": 65
+    },
+    "material": {
+      "accuracy": 0.03076923076923077,
+      "correct": 2,
+      "total": 65
+    },
+    "occasion": {
+      "accuracy": 0.23076923076923078,
+      "correct": 15,
+      "total": 65
+    },
+    "location": {
+      "accuracy": 0.3384615384615385,
+      "correct": 22,
+      "total": 65
+    }
+  },
+  "notes": {
+    "strengths": "Strongest on location when garment silhouettes and styling cues are visually obvious in Pexels street-fashion photos.",
+    "weaknesses": "Weakest on garmentType because stock photos rarely contain reliable geographic signals without capture metadata.",
+    "nextSteps": "Collect designer field photos with EXIF/GPS, add synonym-aware scoring (e.g. t-shirt vs tee), and fine-tune prompts per attribute for the vision model."
+  },
+  "failures": [
+    "fashion-065: Model output did not contain JSON"
+  ],
+  "rows": [
+    {
+      "id": "fashion-001",
+      "predicted": {
+        "description": "A young woman wearing an oversized denim jacket over a ribbed mustard-yellow crop top, paired with dark trousers. She accessorizes with round yellow-tinted sunglasses pushed up on her face, a colorful rainbow headband, and vibrant pink-and-blue over-ear headphones. She is posed dynamically against a bold, flat yellow wall, head tilted back with mouth open in a joyful expression, one hand touching her sunglasses and the other holding her headphones — conveying energy, movement, and playful confidence.",
+        "garmentType": "jacket",
+        "style": "streetwear",
+        "material": "denim",
+        "colorPalette": [
+          "denim blue",
+          "mustard yellow",
+          "black",
+          "rainbow",
+          "bright yellow"
+        ],
+        "pattern": "solid",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "young adult",
+        "trendNotes": "Maximalist color-blocking with tonal background staging; retro-inflected accessories (round tinted lenses, rainbow headband) signal a Gen-Z nostalgia revival trend merging 90s denim with bold Y2K accents. Headphones as statement accessory reflect the ongoing music-lifestyle crossover in street fashion.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "casual",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-002",
+      "predicted": {
+        "description": "A full-skirted, fit-and-flare cocktail dress featuring a structured V-neckline bodice and dramatically voluminous skirt captured mid-twirl, suggesting movement and energy. The dress is crafted in a bold jacquard or brocade fabric with large-scale chrysanthemum or gerbera daisy motifs rendered in chartreuse yellow-green against a deep black ground. The silhouette is reminiscent of 1950s New Look couture with a cinched waist, padded or structured skirt, and sleeveless cap-shoulder construction. The model pairs it with black block-heel ankle-strap sandals. The backdrop is a raw concrete wall, creating an editorial contrast between the ornate garment and industrial setting.",
+        "garmentType": "dress",
+        "style": "couture-inspired retro",
+        "material": "jacquard brocade",
+        "colorPalette": [
+          "chartreuse",
+          "black",
+          "yellow-green",
+          "olive"
+        ],
+        "pattern": "large-scale floral jacquard",
+        "season": "fall",
+        "occasion": "formal evening",
+        "consumerProfile": "luxury fashion-forward adult",
+        "trendNotes": "Maximalist florals in non-traditional colorways continue to dominate luxury eveningwear; the structured ball-gown revival with couture volume references mid-century silhouettes reimagined for contemporary red-carpet and gala dressing.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "blazer",
+        "style": "business",
+        "material": "wool blend",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-003",
+      "predicted": {
+        "description": "A female model poses against a muted teal studio backdrop in an eclectic, layered streetwear ensemble. She wears a chunky ribbed pink knit sweater tucked into a midi-length raw-hem denim skirt featuring a bold pink side stripe with the text 'Sexual Fantasies' in white lettering and a front slit detail. An olive-green satin bomber jacket with tiger embroidery on the sleeve is draped casually off her shoulders. She accessorizes with a white baseball cap bearing a red '69' number, a red structured mini handbag adorned with blue and white crochet trim and tassel detailing, and a layered choker necklace. Her hair is styled in loose blonde curls.",
+        "garmentType": "skirt",
+        "style": "streetwear",
+        "material": "denim",
+        "colorPalette": [
+          "light blue",
+          "pink",
+          "olive green",
+          "red",
+          "white"
+        ],
+        "pattern": "solid with graphic stripe",
+        "season": "fall",
+        "occasion": "casual",
+        "consumerProfile": "young adult, trend-forward, urban fashion enthusiast",
+        "trendNotes": "Layered mixed-texture dressing combining utilitarian bomber silhouettes with slogan-branded denim and playful boho accessories reflects late 2010s logomania and athleisure crossover trends; tassel and crochet bag detailing nods to artisan-craft accessory revival",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "elegant",
+        "material": "satin",
+        "occasion": "evening",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-004",
+      "predicted": {
+        "description": "A young woman poses against a clean white studio backdrop wearing a relaxed-fit shirt dress with bold vertical wide stripes in cornflower blue and white. The dress features a classic camp collar, front button placket, dual chest patch pockets with button flaps, and a self-tie waist belt that cinches the silhouette at the waist. The sleeves are rolled to a three-quarter length, adding a casual, effortless feel. The overall silhouette is A-line and relaxed. Styling is elevated with a retro-inspired glam makeup look — bold red lips, defined smoky eyes — and voluminous wavy auburn hair, suggesting a polished yet approachable aesthetic.",
+        "garmentType": "shirt dress",
+        "style": "casual chic",
+        "material": "cotton",
+        "colorPalette": [
+          "cornflower blue",
+          "white",
+          "off-white"
+        ],
+        "pattern": "wide vertical stripe",
+        "season": "spring/summer",
+        "occasion": "casual",
+        "consumerProfile": "young adult, fashion-conscious, mid-market",
+        "trendNotes": "Wide-stripe shirt dresses continue to resonate as a transitional spring-summer staple, echoing nautical and resort wear influences. The belted waist detail aligns with the ongoing demand for silhouette definition in relaxed garments. Retro-glam styling suggests crossover appeal with vintage-inspired fashion movements.",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "romantic",
+        "material": "chiffon",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-005",
+      "predicted": {
+        "description": "A young man wearing a well-tailored dark navy/charcoal two-button suit with notched lapels and a white pocket square. He pairs it with a crisp white dress shirt and a diagonal regimental striped tie in navy, black, and gold tones. The suit has a slim contemporary silhouette with structured shoulders and a clean chest. He stands casually leaning against a horizontal slatted warm-toned cedar wood wall, one hand in his trouser pocket, projecting a confident yet approachable professional demeanor.",
+        "garmentType": "suit",
+        "style": "business formal",
+        "material": "wool blend",
+        "colorPalette": [
+          "charcoal",
+          "navy",
+          "white",
+          "gold",
+          "black"
+        ],
+        "pattern": "solid with striped tie accent",
+        "season": "fall",
+        "occasion": "formal",
+        "consumerProfile": "young professional, corporate, entry-to-mid-level executive",
+        "trendNotes": "Slim-fit suiting with classic regimental stripe tie reflects a return to timeless boardroom dressing with understated elegance; pocket square as a refined detail signals attention to classic menswear codes without being overdone.",
+        "location": {
+          "continent": "Asia",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "jacket",
+        "style": "streetwear",
+        "material": "denim",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-006",
+      "predicted": {
+        "description": "This landscape image captures a densely forested hillside with terracotta-roofed stone buildings nestled among lush Mediterranean vegetation. The scene evokes a rustic, sun-drenched Italian or Ligurian hillside aesthetic — rich deep greens, earthy terracotta, and bleached whites set against a pale blue sky. As a fashion mood board reference, this image inspires an earthy, organic collection drawing from Tuscan or Ligurian countryside living: flowing linen silhouettes, sun-washed natural textiles, artisan-crafted garments with relaxed Mediterranean elegance.",
+        "garmentType": "dress",
+        "style": "bohemian",
+        "material": "linen",
+        "colorPalette": [
+          "deep forest green",
+          "terracotta",
+          "off-white",
+          "pale sky blue",
+          "earthy olive"
+        ],
+        "pattern": "solid",
+        "season": "summer",
+        "occasion": "casual",
+        "consumerProfile": "conscious luxury, travel-oriented adult seeking artisan and slow-fashion aesthetics",
+        "trendNotes": "Strongly aligned with the ongoing 'quiet luxury' and 'Mediterranean resort wear' trend — natural palettes, relaxed silhouettes, and heritage craftsmanship rooted in Southern European landscapes",
+        "location": {
+          "continent": "Europe",
+          "country": "Italy",
+          "city": "Liguria region, unknown specific city"
+        }
+      },
+      "expected": {
+        "garmentType": "shirt",
+        "style": "casual",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-007",
+      "predicted": {
+        "description": "A young woman stands in a dry wildflower meadow wearing a relaxed-fit ribbed white knit sweater with a slightly oversized silhouette and long sleeves, paired with a midi-length dark floral skirt featuring small scattered blossoms on a near-black ground. The skirt has a soft, flowing A-line cut that falls below the knee. She is barefoot, adding a natural, grounded quality to the look. Her dark shoulder-length hair blows gently in the wind. The background features a misty mountain range and distant village, evoking a cool, overcast autumn day in a Southeast Asian highland setting.",
+        "garmentType": "sweater and skirt ensemble",
+        "style": "minimalist bohemian",
+        "material": "knit wool blend (top), chiffon or lightweight woven fabric (skirt)",
+        "colorPalette": [
+          "white",
+          "black",
+          "dusty mauve",
+          "warm beige",
+          "muted lavender"
+        ],
+        "pattern": "solid (top), floral (skirt)",
+        "season": "fall",
+        "occasion": "casual",
+        "consumerProfile": "young adult, aesthetic-conscious, nature-inspired",
+        "trendNotes": "Reflects the ongoing 'quiet countryside' and soft romanticist trend — mixing cozy knitwear with delicate floral midi skirts for an effortless, editorial-ready pastoral aesthetic popularized across Southeast Asian fashion editorial and social media.",
+        "location": {
+          "continent": "Asia",
+          "country": "Indonesia",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "coat",
+        "style": "classic",
+        "material": "cotton",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-008",
+      "predicted": {
+        "description": "A female model poses in a studio setting with warm, directional lighting casting soft shadows. She wears an oversized, loosely draped white linen button-down shirt, left open and tied or tucked at the waist in an artfully disheveled manner, revealing a nude-toned camisole underneath. The shirt features wide sleeves with buttoned cuffs and a relaxed, unstructured silhouette. Paired with high-waisted wide-leg trousers in a warm camel/terracotta tone, the look achieves an effortless, editorial sensibility. Accessories include round amber/orange-tinted aviator sunglasses with thin gold frames and gold hoop earrings. Hair is pulled back loosely. The overall mood is sun-drenched, understated, and sculptural.",
+        "garmentType": "shirt",
+        "style": "minimalist",
+        "material": "linen",
+        "colorPalette": [
+          "off-white",
+          "camel",
+          "terracotta",
+          "nude",
+          "amber"
+        ],
+        "pattern": "solid",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "young adult",
+        "trendNotes": "Oversized shirting styled with relaxed tailored trousers reflects the ongoing quiet luxury and effortless-chic trend; warm earth tones and amber-tinted accessories align with the 70s revival aesthetic prominent in contemporary minimalist fashion.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "casual",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-009",
+      "predicted": {
+        "description": "A clothing rack displays several garments on wooden hangers in what appears to be a boutique or pop-up retail setting. The focal garments include a white tunic or longline top with intricate dark embroidered trim along the sleeve hem, layered beside a charcoal and dark grey distressed or textured short-sleeve top, and a white sleeveless piece with grey knit paneling or contrast inset. The shallow depth of field brings the textures and layering of the garments into sharp relief, with a softly blurred crowd or retail environment visible in the background, suggesting a curated fashion event or market.",
+        "garmentType": "top",
+        "style": "minimalist",
+        "material": "cotton",
+        "colorPalette": [
+          "white",
+          "charcoal",
+          "grey",
+          "black",
+          "off-white"
+        ],
+        "pattern": "embroidered",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "young adult",
+        "trendNotes": "Tonal layering of white and grey separates with artisanal embroidery detail reflects the ongoing quiet luxury and craft-forward minimalism trend, appealing to conscious consumers seeking understated yet considered design.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "suit",
+        "style": "formal",
+        "material": "wool",
+        "occasion": "formal",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-010",
+      "predicted": {
+        "description": "This is an urban architectural mood board image rather than a fashion garment photo. The scene captures a dramatic twilight view down a major city boulevard flanked by glass and steel skyscrapers, with warm amber street lighting, a soft pink-blue gradient sky at dusk, and sparse traffic. The visual mood evokes sophistication, urban power dressing, and metropolitan edge — suitable for inspiring a sleek, structured, city-ready collection with dark tones punctuated by metallic and warm amber accents.",
+        "garmentType": "unknown",
+        "style": "urban minimalist",
+        "material": "unknown",
+        "colorPalette": [
+          "charcoal",
+          "steel blue",
+          "amber",
+          "blush pink",
+          "slate gray"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "workwear",
+        "consumerProfile": "urban professional, luxury, contemporary",
+        "trendNotes": "The cityscape palette — deep charcoals, reflective steel blues, and warm amber glows — aligns with the ongoing trend of 'dark corporate chic' and metropolitan minimalism, echoing runway themes from Bottega Veneta and The Row's structured suiting and outerwear lines.",
+        "location": {
+          "continent": "North America",
+          "country": "United States",
+          "city": "Chicago"
+        }
+      },
+      "expected": {
+        "garmentType": "jacket",
+        "style": "edgy",
+        "material": "leather",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-011",
+      "predicted": {
+        "description": "This mood board image captures a coastal clifftop scene viewed through lush, warm-toned foliage — eucalyptus-like leaves in deep green with red-orange edges frame a vivid turquoise ocean horizon under a clear cerulean sky. The composition evokes a rich earthy-meets-oceanic palette ideal for a nature-inspired collection. The warm golden light suggests late afternoon sun, casting rich amber tones across layered scrubland vegetation. No garment is present; this is a pure environment/color reference shot suitable for texture, palette, and mood direction.",
+        "garmentType": "not applicable — landscape reference",
+        "style": "bohemian",
+        "material": "organic cotton, linen, or textured woven",
+        "colorPalette": [
+          "burnt sienna",
+          "deep teal",
+          "forest green",
+          "warm amber",
+          "cerulean blue"
+        ],
+        "pattern": "organic botanical print",
+        "season": "fall",
+        "occasion": "casual",
+        "consumerProfile": "eco-conscious millennial, nature-inspired lifestyle brand",
+        "trendNotes": "Strongly aligns with the ongoing earth-tone revival and biophilic design movement; teal-and-terracotta contrast is a dominant palette in resort and sustainable fashion collections for 2024–2025.",
+        "location": {
+          "continent": "Oceania",
+          "country": "Australia",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "sweater",
+        "style": "preppy",
+        "material": "knit",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-012",
+      "predicted": {
+        "description": "A young male model stands in a rocky, coastal or quarry-like landscape during golden hour. He wears an oversized washed denim jacket layered over a white graphic tee featuring a circular red logo (resembling Vans branding). The jacket has a classic trucker silhouette with chest pockets and a slightly distressed, faded wash. He pairs the look with dark slim-fit trousers and accessorizes with a black embroidered dad cap and a beaded wrist bracelet. His hands grip the jacket lapels in a confident, editorial pose, with curly hair visible beneath the cap.",
+        "garmentType": "jacket",
+        "style": "streetwear",
+        "material": "denim",
+        "colorPalette": [
+          "light blue",
+          "white",
+          "black",
+          "dark navy",
+          "red"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "casual",
+        "consumerProfile": "young adult",
+        "trendNotes": "Double denim and layering with graphic tees continues as a dominant streetwear trend; oversized trucker jackets with vintage washes remain highly relevant in Gen-Z and millennial casual markets; dad caps with subtle embroidery persist as a staple accessory.",
+        "location": {
+          "continent": "Europe",
+          "country": "Scandinavia (likely Sweden or Finland)",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "hoodie",
+        "style": "streetwear",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": true,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-013",
+      "predicted": {
+        "description": "This is not a fashion photo — it depicts a small juvenile bird, likely a White-eye or Yellow Warbler species, peeking through serrated green leaves. The bird features soft yellow-green plumage on the crown, pale grey-white underfeathers, and a warm orange-yellow beak. While not a garment image, as a mood board element it evokes organic texture, camouflage-inspired palettes, and nature-forward design language suitable for a biophilic or eco-conscious fashion collection.",
+        "garmentType": "N/A — nature reference image",
+        "style": "biophilic, nature-inspired, organic",
+        "material": "feather texture reference — suggests organza, chiffon, or raw silk with soft surface",
+        "colorPalette": [
+          "olive green",
+          "chartreuse yellow",
+          "pale grey",
+          "warm orange",
+          "deep forest green"
+        ],
+        "pattern": "organic camouflage, tonal natural print",
+        "season": "spring",
+        "occasion": "casual, resort, editorial",
+        "consumerProfile": "eco-conscious millennial, sustainable fashion enthusiast, nature-inspired luxury buyer",
+        "trendNotes": "Aligns with the growing biophilic design trend — fauna-inspired prints, earthy tonal dressing, and soft textural layering referencing plumage and leaf structure are prominent in spring/summer collections.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "bohemian",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-014",
+      "predicted": {
+        "description": "A dark silhouetted figure stands centrally against a black background, enveloped in dramatic long-exposure light painting. The person appears to wear a casual crewneck sweatshirt or sweater with relaxed-fit trousers, rendered almost entirely in shadow. The garments are secondary to the artistic composition — fluid, wave-like streaks of red, crimson, and warm orange neon light flow dynamically around the figure, creating a sense of energy, motion, and futuristic aura. The silhouette conveys an effortlessly cool, gender-neutral streetwear aesthetic amplified by experimental visual art direction.",
+        "garmentType": "sweatshirt / casual trousers",
+        "style": "streetwear / avant-garde editorial",
+        "material": "fleece or cotton blend",
+        "colorPalette": [
+          "black",
+          "crimson",
+          "deep red",
+          "warm orange",
+          "magenta"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "casual / editorial / creative event",
+        "consumerProfile": "young adult, creative, fashion-forward, gender-neutral",
+        "trendNotes": "Strong alignment with dark, moody editorial aesthetics and the growing trend of light-art fashion photography used to evoke energy and identity. Silhouette-forward styling resonates with stealth luxury and minimalist streetwear movements where form and mood override surface detail.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "activewear",
+        "style": "athletic",
+        "material": "synthetic",
+        "occasion": "athletic",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-015",
+      "predicted": {
+        "description": "A confident woman with short curly hair and round black-framed glasses stands in the foreground with arms crossed, wearing a taupe/mushroom-toned utility-style zip-up jacket with a relaxed fit and long sleeves. The silhouette is straight and slightly oversized, suggesting comfort-forward professional dressing. She wears a small brooch pin on the chest. The background reveals a modern creative office environment with coworkers at wooden desks, desktop monitors, indoor plants, and warm ambient lighting — reinforcing a smart-casual creative workspace aesthetic.",
+        "garmentType": "jacket",
+        "style": "minimalist",
+        "material": "cotton twill",
+        "colorPalette": [
+          "taupe",
+          "mushroom",
+          "warm grey",
+          "off-white",
+          "black"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "workwear",
+        "consumerProfile": "creative professional, young adult, gender-neutral fashion conscious",
+        "trendNotes": "Reflects the growing 'quiet luxury' and earth-tone utility trend — functional silhouettes in muted, organic palettes that bridge casual and professional dressing. The zip-front closure and relaxed fit align with post-pandemic comfort-first workwear evolution.",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "party",
+        "material": "satin",
+        "occasion": "evening",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-016",
+      "predicted": {
+        "description": "This image is not a fashion or garment photo but rather an aerial cityscape of a waterfront European city. The scene features a wide river or harbor with sailboats docked at a marina in the foreground, cargo barges and ferries navigating the water, construction cranes in the mid-distance, and a dense urban skyline under a dramatic overcast sky. As a mood board element, this image evokes a cool, industrial-maritime aesthetic — muted tones, structural architecture, and fluid water movement suggest inspiration for a collection rooted in utilitarian elegance, nautical workwear, or contemporary European minimalism.",
+        "garmentType": "no garment present — landscape mood reference",
+        "style": "minimalist, nautical, industrial",
+        "material": "no garment — mood suggests technical fabrics, waxed cotton, or water-resistant nylon",
+        "colorPalette": [
+          "steel blue",
+          "cloud white",
+          "charcoal gray",
+          "muted taupe",
+          "slate"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "casual, workwear",
+        "consumerProfile": "urban professional, design-conscious, contemporary European consumer",
+        "trendNotes": "The muted harbor palette and industrial skyline reference the ongoing trend of utilitarian minimalism and functional outerwear — aligning with Scandinavian and Dutch design sensibilities favoring restrained color, weather-proof materials, and understated structure.",
+        "location": {
+          "continent": "Europe",
+          "country": "Netherlands",
+          "city": "Amsterdam"
+        }
+      },
+      "expected": {
+        "garmentType": "t-shirt",
+        "style": "minimalist",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-017",
+      "predicted": {
+        "description": "A young man leans casually against the front bumper of a classic vintage red and black automobile, holding a smartphone. He wears a light sky-blue button-up dress shirt with the sleeves slightly rolled, paired with slim-fit black trousers and white sneakers with white ankle socks. The outfit is neat, pressed, and youthful, with a silver bracelet as the sole accessory. The silhouette is slim and clean, projecting understated smart-casual confidence. The vintage car backdrop adds a retro-nostalgic contrast to the contemporary casual look.",
+        "garmentType": "shirt",
+        "style": "smart casual",
+        "material": "cotton",
+        "colorPalette": [
+          "sky blue",
+          "black",
+          "white",
+          "silver"
+        ],
+        "pattern": "solid",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "young adult",
+        "trendNotes": "The pairing of a light pastel dress shirt with slim black trousers and clean white sneakers reflects the ongoing smart-casual fusion trend popular among South Asian youth, blending formal-adjacent pieces with streetwear footwear for an accessible, polished everyday look.",
+        "location": {
+          "continent": "Asia",
+          "country": "India",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "skirt",
+        "style": "preppy",
+        "material": "wool",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-018",
+      "predicted": {
+        "description": "A richly decorated interior wall serving as a fashion mood board backdrop, featuring a gallery of framed pop-art style portrait prints where subjects wear red fez hats (tarboosh). The wall is covered in ornate Moroccan-inspired tile-pattern wallpaper in green, red, and white. Decorative hamsa hand motifs in gold, purple, and green punctuate the arrangement. Overhead shelving displays gilded lanterns and metallic trays. The overall aesthetic is maximalist, eclectic, and culturally rich — evoking a North African bazaar or Moroccan riad café. The fez hat recurs as a unifying fashion accessory across all portraits, suggesting it as a central design motif or statement accessory for a collection.",
+        "garmentType": "hat / headwear (fez/tarboosh)",
+        "style": "maximalist, eclectic, bohemian-global fusion",
+        "material": "felt (traditional fez construction)",
+        "colorPalette": [
+          "deep red",
+          "gold",
+          "ivory",
+          "olive green",
+          "terracotta"
+        ],
+        "pattern": "floral tile, ornamental, pop-art portrait",
+        "season": "fall",
+        "occasion": "cultural, editorial, statement casual",
+        "consumerProfile": "culturally curious creative, fashion-forward adult, luxury bohemian",
+        "trendNotes": "Revival of artisanal cultural headwear as bold statement accessories; maximalist interior aesthetics feeding into fashion storytelling; North African craft motifs trending in global fashion weeks and editorial styling",
+        "location": {
+          "continent": "Europe or Africa",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "coat",
+        "style": "streetwear",
+        "material": "wool",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-019",
+      "predicted": {
+        "description": "A close-up macro photograph of white single-bloom dahlias with warm amber-orange centers against a soft teal-green bokeh background. The delicate layered petals radiate outward in a clean, symmetrical silhouette with a soft luminous quality. The muted, vintage-toned edit gives the scene a romantic, organic warmth. A budding stem adds a sense of growth and potential. This image evokes textile inspiration — think organza petal appliqués, broderie anglaise, or tonal embroidery on sheer fabric.",
+        "garmentType": "dress",
+        "style": "romantic botanical / soft minimalist",
+        "material": "organza or chiffon with embroidered or appliqué detailing",
+        "colorPalette": [
+          "ivory white",
+          "amber",
+          "warm terracotta",
+          "sage green",
+          "dusty teal"
+        ],
+        "pattern": "floral",
+        "season": "spring",
+        "occasion": "garden party, bridal, editorial",
+        "consumerProfile": "romantic feminine aesthetic consumer, bridal or luxury ready-to-wear, ages 25–40",
+        "trendNotes": "Aligned with the continued rise of botanical and nature-inspired fashion, petal-layered textures, and the 'quiet luxury' movement intersecting with organic femininity. Warm neutral florals are replacing bold prints in elevated casual and bridal markets.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "blouse",
+        "style": "business",
+        "material": "silk",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-020",
+      "predicted": {
+        "description": "A South Asian bride dressed in an opulent red bridal lehenga heavily embellished with gold zari embroidery, mirror work (shisha), and intricate floral motifs. She wears a red dupatta with ornate gold and mirror border draped over her head. Her bridal jewelry ensemble includes a maang tikka, passa (side headpiece), nath (nose ring with gold chain), layered necklaces, jhumka earrings, and red-and-white chooda (bridal bangles). Her hands are adorned with elaborate henna (mehndi) and she holds a decorative gold kalira, a traditional Punjabi bridal charm. Dramatic kohl-lined eyes are visible above the partially covering veil, creating a classic half-face bridal portrait composition.",
+        "garmentType": "lehenga choli",
+        "style": "traditional South Asian bridal couture",
+        "material": "silk with heavy zari embroidery and mirror work",
+        "colorPalette": [
+          "crimson red",
+          "gold",
+          "ivory white",
+          "deep maroon"
+        ],
+        "pattern": "embroidered floral with mirror work (shisha)",
+        "season": "all-season (ceremonial)",
+        "occasion": "wedding / bridal ceremony",
+        "consumerProfile": "South Asian bridal luxury market, heritage couture consumer",
+        "trendNotes": "Revival of traditional Punjabi bridal aesthetics with maximalist jewelry layering; kalira and chooda remain iconic bridal markers; heavy zardozi and shisha embroidery continues to dominate South Asian bridal couture runways",
+        "location": {
+          "continent": "Asia",
+          "country": "India",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "polo",
+        "style": "smart casual",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-021",
+      "predicted": {
+        "description": "A woman wearing a relaxed, oversized white silk or satin pajama-style shirt with a classic button-front placket, long sleeves with subtle cuffs, and a loose, draped silhouette. She is seated cross-legged on a white hotel bed holding a silver breakfast tray, evoking effortless morning luxury. The garment has a soft sheen consistent with silk or high-quality satin, falling slightly off one shoulder in a naturally undone way. The setting features ornate Moorish or Mediterranean architectural details — carved wooden lattice panels, arched doorways, and muted sage-green walls — reinforcing an elevated travel aesthetic.",
+        "garmentType": "shirt",
+        "style": "minimalist",
+        "material": "silk",
+        "colorPalette": [
+          "ivory",
+          "white",
+          "cream"
+        ],
+        "pattern": "solid",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "luxury",
+        "trendNotes": "The 'quiet luxury' and elevated loungewear trend is strongly represented here — silk pajama-inspired daywear blurring the line between intimate apparel and casual chic. The aesthetic aligns with the ongoing demand for effortless, understated sophistication seen across brands like The Row, Equipment, and Totême.",
+        "location": {
+          "continent": "Europe",
+          "country": "Italy",
+          "city": "Florence"
+        }
+      },
+      "expected": {
+        "garmentType": "jacket",
+        "style": "casual",
+        "material": "denim",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-022",
+      "predicted": {
+        "description": "A man seated on a gym bench performing dumbbell bicep curls, wearing a relaxed-fit white sleeveless tank top with raw-cut or ribbed hem and light grey compression shorts layered under dark grey athletic shorts. The silhouette is loose on top with a layered bottom, conveying a functional yet understated gym aesthetic. The setting is a modern, well-lit fitness studio with floor-to-ceiling windows.",
+        "garmentType": "tank top / athletic shorts",
+        "style": "minimalist athleisure",
+        "material": "cotton jersey / polyester blend",
+        "colorPalette": [
+          "white",
+          "charcoal grey",
+          "light grey"
+        ],
+        "pattern": "solid",
+        "season": "summer",
+        "occasion": "casual / athletic",
+        "consumerProfile": "active adult male, mid-20s to mid-40s, fitness-oriented, minimalist sensibility",
+        "trendNotes": "Layered shorts (compression under loose) reflect the ongoing 'functional layering' trend in menswear athleisure; muted, tonal neutral palette aligns with the quiet luxury and minimalist sportswear movement popularized by brands like Satisfy Running and Reigning Champ.",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "gown",
+        "style": "formal",
+        "material": "satin",
+        "occasion": "formal",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-023",
+      "predicted": {
+        "description": "A macro close-up of dewy grass blades with glistening water droplets, evoking a fresh, organic, and immersive natural texture. The image captures overlapping elongated green blades with serrated edges, scattered translucent water beads catching light, and a soft bokeh background of earthy amber and olive tones. No garment is present — this image serves as a pure texture and color inspiration reference for a mood board, suggesting fluid draping fabrics, surface embellishment like beading or sequins mimicking dewdrops, and nature-forward material choices.",
+        "garmentType": "textile/surface inspiration — no garment present",
+        "style": "botanical minimalist",
+        "material": "organza, silk chiffon, or laser-cut technical fabric with bead embellishment",
+        "colorPalette": [
+          "sage green",
+          "lime green",
+          "warm amber",
+          "translucent white",
+          "deep olive"
+        ],
+        "pattern": "organic linear — grass blade stripe with scattered bead motif",
+        "season": "spring",
+        "occasion": "resort, garden party, editorial",
+        "consumerProfile": "eco-conscious luxury consumer, nature-inspired contemporary fashion enthusiast",
+        "trendNotes": "Aligns with the biophilic design trend — dewdrop embellishment, wet-look finishes, and botanical greens are strong in spring/summer runway collections emphasizing connection to nature and sustainability narratives.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "robe",
+        "style": "bohemian",
+        "material": "silk",
+        "occasion": "casual",
+        "location": {
+          "continent": "Asia",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-024",
+      "predicted": {
+        "description": "A young woman sits casually on the ground near a bicycle tire in a semi-arid outdoor trail setting. She wears a teal/dark blue graphic hoodie with pink accents and text detailing, paired with form-fitting athletic leggings featuring a bold geometric triangle pattern in teal, black, and white. She accessorizes with a colorful striped headband in red, white, and black, a black waist/fanny pack worn across the body, a wristwatch, and multicolor athletic sneakers in white, pink, and teal. The overall silhouette is relaxed and sporty, with layered activewear creating visual interest through pattern mixing.",
+        "garmentType": "hoodie with athletic leggings",
+        "style": "streetwear-athletic / athleisure",
+        "material": "polyester-spandex blend",
+        "colorPalette": [
+          "teal",
+          "black",
+          "white",
+          "pink",
+          "charcoal"
+        ],
+        "pattern": "geometric triangle print on leggings; graphic text print on hoodie",
+        "season": "fall",
+        "occasion": "casual outdoor / active",
+        "consumerProfile": "young adult athletic, outdoor fitness enthusiast, budget-to-mid-range sportswear consumer",
+        "trendNotes": "Pattern mixing in activewear is a strong contemporary trend — pairing a solid-toned hoodie with bold geometric printed leggings reflects the mainstream athleisure shift toward expressive, personality-driven sportswear. Fanny packs worn as crossbody bags continue to trend in active and streetwear contexts.",
+        "location": {
+          "continent": "Asia",
+          "country": "India",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "shirt",
+        "style": "casual",
+        "material": "flannel",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-025",
+      "predicted": {
+        "description": "A casual studio scene featuring two individuals in a dynamic acrobatic pose against a plain light grey wall. The standing figure wears a relaxed-fit white crew-neck t-shirt with short sleeves and black trousers, exuding effortless minimalist ease. The second figure is inverted in a handstand, wearing loose red athletic shorts with black trim piping, revealing a circular tattoo on the hip. The composition blends everyday basics with athletic movement, creating a playful editorial tension between stillness and motion.",
+        "garmentType": "t-shirt / athletic shorts",
+        "style": "minimalist / athleisure",
+        "material": "cotton jersey / lightweight woven cotton",
+        "colorPalette": [
+          "white",
+          "red",
+          "black",
+          "warm beige"
+        ],
+        "pattern": "solid",
+        "season": "spring / summer",
+        "occasion": "casual / activewear",
+        "consumerProfile": "young adult, urban creative, gender-inclusive athletic",
+        "trendNotes": "The pairing of clean white basics with bold red athletic shorts reflects the ongoing athleisure-meets-minimalism trend. Relaxed silhouettes, body-positive editorial framing, and visible tattoos align with Gen Z and millennial consumer values around authenticity and movement-inspired dressing.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "top",
+        "style": "party",
+        "material": "sequin",
+        "occasion": "evening",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-026",
+      "predicted": {
+        "description": "This image does not depict a fashion garment or scene. It shows multiple blister packs of round pink pharmaceutical tablets arranged in overlapping silver and orange foil packaging. The close-up macro photography highlights the texture of the embossed foil and the glossy surface of the pills. This is not suitable fashion inspiration material.",
+        "garmentType": "none",
+        "style": "none",
+        "material": "none",
+        "colorPalette": [
+          "pink",
+          "silver",
+          "orange",
+          "white"
+        ],
+        "pattern": "none",
+        "season": "unknown",
+        "occasion": "none",
+        "consumerProfile": "none",
+        "trendNotes": "This image contains pharmaceutical blister packs and cannot be used as fashion inspiration. No trend data is applicable.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "jumpsuit",
+        "style": "minimalist",
+        "material": "linen",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-027",
+      "predicted": {
+        "description": "A young man photographed in a close-up selfie-style shot wearing a layered cold-weather outfit. He sports a black zip-up jacket over a grey hoodie with white drawstring details, layered over a blue shirt. A yellow-green garment, possibly a puffer jacket or bag strap, is visible in the foreground. The overall silhouette suggests casual urban layering with functional warmth prioritized over formality.",
+        "garmentType": "jacket",
+        "style": "streetwear",
+        "material": "synthetic nylon blend",
+        "colorPalette": [
+          "black",
+          "grey",
+          "blue",
+          "yellow-green",
+          "white"
+        ],
+        "pattern": "solid",
+        "season": "winter",
+        "occasion": "casual",
+        "consumerProfile": "young adult",
+        "trendNotes": "Layered utilitarian streetwear with mixed textures; the combination of puffer, hoodie, and zip jacket reflects the ongoing trend of functional cold-weather layering popular in urban South Asian and global streetwear markets.",
+        "location": {
+          "continent": "Asia",
+          "country": "India",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "jacket",
+        "style": "streetwear",
+        "material": "nylon",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": true,
+      "styleMatch": true,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-028",
+      "predicted": {
+        "description": "A woman wearing a traditional South Indian Kanjivaram silk saree in a rich red and gold brocade weave, paired with a yellow silk blouse with short sleeves. The saree features an ornate gold zari border and pallu draped over the shoulder. She is adorned with traditional red and gold bangles stacked on both wrists, a ring, and gold earrings. She embraces a man wearing a dark navy/maroon textured blazer suit with a burgundy mandarin collar inner. The scene is an intimate celebratory moment, likely a wedding or reception, shot against a soft blush-pink studio backdrop.",
+        "garmentType": "saree",
+        "style": "traditional ethnic",
+        "material": "silk",
+        "colorPalette": [
+          "red",
+          "gold",
+          "yellow",
+          "navy",
+          "burgundy"
+        ],
+        "pattern": "brocade floral with zari embroidery",
+        "season": "all-season",
+        "occasion": "wedding/formal ceremonial",
+        "consumerProfile": "South Asian bridal and festive consumer, adult, heritage luxury",
+        "trendNotes": "Kanjivaram silk sarees in bold red and gold with contrasting yellow blouses remain a timeless staple in South Indian bridal fashion; pairing with coordinated ethnic menswear in structured blazers reflects the growing trend of coordinated couple dressing at Indian celebrations.",
+        "location": {
+          "continent": "Asia",
+          "country": "India",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "sweater",
+        "style": "classic",
+        "material": "wool",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-029",
+      "predicted": {
+        "description": "A woman with voluminous curly blonde hair sits on a dark wicker lounge chair beside a resort-style swimming pool, wearing an oversized white linen button-up shirt worn open as a cover-up over dark shorts or swimwear. The shirt features a relaxed, billowy silhouette with rolled or loose sleeves pushed up slightly at the forearms. She is barefoot with bare legs extended, working on a slim silver laptop. The scene is sun-dappled with natural stone paving, river pebble landscaping, and tropical-adjacent greenery in the background, evoking a luxury leisure atmosphere.",
+        "garmentType": "shirt",
+        "style": "resort wear",
+        "material": "linen",
+        "colorPalette": [
+          "white",
+          "ivory",
+          "tan",
+          "dark brown",
+          "warm beige"
+        ],
+        "pattern": "solid",
+        "season": "summer",
+        "occasion": "casual",
+        "consumerProfile": "millennial professional, digital nomad, luxury leisure",
+        "trendNotes": "Oversized linen shirt worn as a beach or pool cover-up continues to dominate resort and slow-fashion aesthetics; effortless 'workation' styling with minimalist accessories reflects the blurred boundary between travel and remote work lifestyles.",
+        "location": {
+          "continent": "Asia",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "skirt",
+        "style": "elegant",
+        "material": "polyester",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-030",
+      "predicted": {
+        "description": "A young man wearing an oversized mustard-yellow pullover hoodie with a large kangaroo front pocket and drawstring hood, styled with thin-frame aviator sunglasses. The silhouette is relaxed and boxy, photographed from a low angle against a brutalist multi-story building with a grid of rectangular windows. The urban architectural backdrop reinforces a contemporary streetwear aesthetic.",
+        "garmentType": "hoodie",
+        "style": "streetwear",
+        "material": "fleece cotton",
+        "colorPalette": [
+          "mustard yellow",
+          "dark brown",
+          "grey",
+          "white"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "casual",
+        "consumerProfile": "young adult urban male, 18–30, trend-conscious, streetwear enthusiast",
+        "trendNotes": "Oversized monochromatic earth-tone hoodies remain a dominant streetwear staple; mustard yellow is a recurring accent color in fall urban collections, offering high visual contrast against neutral cityscapes. Pairing with minimalist aviator sunglasses elevates the look with a subtle retro-modern crossover appeal.",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "shirt",
+        "style": "smart casual",
+        "material": "cotton",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-031",
+      "predicted": {
+        "description": "A midi-length shirt dress in a classic light blue and white pinstripe cotton fabric, featuring a self-tie belt at the natural waist, short sleeves with button-down front closure, and an A-line silhouette. The outfit is styled with a small structured navy blue satchel bag with gold hardware and double buckle detailing, a white leather strap wristwatch with a minimalist dial, and a delicate gold ring. The composition is a close-up torso and hands shot, conveying a polished yet approachable aesthetic.",
+        "garmentType": "dress",
+        "style": "minimalist",
+        "material": "cotton",
+        "colorPalette": [
+          "light blue",
+          "white",
+          "navy blue",
+          "gold"
+        ],
+        "pattern": "striped",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "young adult",
+        "trendNotes": "The combination of a classic pinstripe shirt dress with a structured mini satchel reflects the ongoing revival of preppy and old-money aesthetics, with clean lines and restrained accessories aligning with quiet luxury micro-trends.",
+        "location": {
+          "continent": "Asia",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "top",
+        "style": "streetwear",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": true,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-032",
+      "predicted": {
+        "description": "A set of clip-in hair extensions displayed flat, showcasing dark wavy/curly human or synthetic hair bundles attached to weft strips with multiple snap-comb clips. The extensions are voluminous with a natural body wave texture, arranged in rows revealing the clip attachment system. The deep black-blue tone suggests a jet black or off-black colorway, ideal for seamless blending with dark natural hair.",
+        "garmentType": "hair accessory / extensions",
+        "style": "natural glam",
+        "material": "human hair or synthetic fiber weft",
+        "colorPalette": [
+          "jet black",
+          "dark navy",
+          "deep charcoal"
+        ],
+        "pattern": "solid",
+        "season": "all-season",
+        "occasion": "casual, evening, formal",
+        "consumerProfile": "young adult to mid-age consumer seeking volume and length enhancement",
+        "trendNotes": "Clip-in extensions remain a dominant accessible luxury in the beauty-fashion crossover space, with body wave and wavy textures surging in demand driven by natural hair aesthetic trends and social media beauty culture",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "coat",
+        "style": "luxury",
+        "material": "faux fur",
+        "occasion": "evening",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-033",
+      "predicted": {
+        "description": "This image does not depict a fashion garment or human subject. It features a Pembroke Welsh Corgi dog with golden-orange and white fur, resting its head on a cream-colored textured blanket or bedding surface. The dog has large upright ears, soulful brown eyes, and a relaxed, contemplative expression. The background is softly blurred in neutral grey and beige tones, suggesting a cozy domestic interior setting.",
+        "garmentType": "none",
+        "style": "none",
+        "material": "none",
+        "colorPalette": [
+          "golden orange",
+          "cream",
+          "white",
+          "warm beige",
+          "soft grey"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "casual",
+        "consumerProfile": "unknown",
+        "trendNotes": "While no garment is present, the image evokes a warm, cozy domestic aesthetic aligned with hygge-inspired interior and lifestyle trends. The color palette of warm amber, cream, and neutral grey could inform a fall/winter knitwear or loungewear collection with earthy, comforting tones.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "vest",
+        "style": "formal",
+        "material": "wool",
+        "occasion": "formal",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-034",
+      "predicted": {
+        "description": "A young woman walks confidently through a grand classical arcade colonnade, wearing a layered casual-chic outfit. She pairs slim-fit dark blue skinny jeans with a light blue long-sleeve button-down shirt, layered under a sleeveless denim vest/gilet. A fringed boho crossbody bag in tan/camel adds a bohemian accent. She carries a dark accessory (likely a hat or small bag) in her right hand and wears white low-top sneakers. A watch is visible on her wrist. The silhouette is slim and elongated, with thoughtful layering creating texture and depth. The architectural backdrop features repetitive stone arches and columns with warm neutral tones.",
+        "garmentType": "vest / gilet (layered over shirt)",
+        "style": "casual chic / bohemian-casual",
+        "material": "denim",
+        "colorPalette": [
+          "medium blue",
+          "light blue",
+          "dark indigo",
+          "tan",
+          "white"
+        ],
+        "pattern": "solid",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "young adult, travel-conscious, style-aware female consumer aged 20–32",
+        "trendNotes": "Denim-on-denim layering remains a recurring casual trend; the sleeveless denim vest over a relaxed shirt speaks to the 'quiet utility' aesthetic gaining traction. Fringe bags signal a boho revival blending with minimalist basics. White sneakers continue as a wardrobe staple anchor piece.",
+        "location": {
+          "continent": "Europe",
+          "country": "France",
+          "city": "Paris"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "business",
+        "material": "jersey",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-035",
+      "predicted": {
+        "description": "This image does not depict a fashion garment or styled subject. It is a tranquil lakeside landscape photograph featuring calm blue-grey water with soft reflections of clouds and distant hillside, a small bird silhouetted on the water surface, and a residential hillside town visible across the lake at dusk or early evening. A construction crane is faintly visible on the horizon. The scene evokes stillness, natural elegance, and European lakeside living — suitable as an atmospheric backdrop or mood reference rather than a direct garment study.",
+        "garmentType": "none",
+        "style": "minimalist",
+        "material": "none",
+        "colorPalette": [
+          "steel blue",
+          "silver grey",
+          "muted teal",
+          "dusty rose",
+          "deep forest green"
+        ],
+        "pattern": "solid",
+        "season": "summer",
+        "occasion": "casual",
+        "consumerProfile": "nature-inspired, quiet luxury, thoughtful minimalist consumer",
+        "trendNotes": "The palette and mood align with the 'quiet luxury' and 'coastal calm' micro-trends — muted, desaturated naturals with an understated European sensibility. Useful as a color story or atmospheric reference for a SS collection.",
+        "location": {
+          "continent": "Europe",
+          "country": "Switzerland or France",
+          "city": "Lake Geneva region (Lac Léman)"
+        }
+      },
+      "expected": {
+        "garmentType": "t-shirt",
+        "style": "streetwear",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-036",
+      "predicted": {
+        "description": "A vibrant field of sunflowers in full bloom dominates the scene, with one large sunflower in sharp focus featuring broad golden-yellow petals radiating from a rich brown-black textured center disk. The lush green broad leaves and tall stalks frame the composition against a dramatic cloudy sky. This image evokes organic warmth, natural maximalism, and rural pastoral energy — ideal for translating into bold floral textile prints, saturated summer colorways, or structured botanical embroidery motifs for a nature-forward collection.",
+        "garmentType": "textile/print inspiration — applicable to sundress, blouse, or scarf",
+        "style": "bohemian",
+        "material": "cotton or linen (natural fiber inspiration)",
+        "colorPalette": [
+          "golden yellow",
+          "deep brown",
+          "sage green",
+          "cloud white",
+          "charcoal grey"
+        ],
+        "pattern": "floral",
+        "season": "summer",
+        "occasion": "casual",
+        "consumerProfile": "nature-conscious millennial, bohemian lifestyle, eco-fashion enthusiast",
+        "trendNotes": "Botanical maximalism and cottagecore aesthetics continue to influence resort and summer ready-to-wear; oversized floral prints with high-contrast centers referencing seed patterns align with the ongoing 'garden-to-runway' movement and dopamine dressing trend.",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "tracksuit",
+        "style": "athletic",
+        "material": "polyester",
+        "occasion": "athletic",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-037",
+      "predicted": {
+        "description": "A delicate gold engagement or cocktail ring rests inside an ornate embossed gold trinket dish featuring floral and botanical relief patterns with scalloped edges. The dish sits atop a marble slab with gold-leaf edge detailing, placed on a green and white striped linen surface. Evergreen foliage and glassware are softly blurred in the background, suggesting a styled holiday or bridal tablescape. The overall composition evokes luxury, romanticism, and artisan craftsmanship.",
+        "garmentType": "jewelry / accessory",
+        "style": "romantic luxe / artisan bridal",
+        "material": "gold metal (brass or gilt), marble, linen",
+        "colorPalette": [
+          "gold",
+          "ivory",
+          "forest green",
+          "white",
+          "champagne"
+        ],
+        "pattern": "embossed floral relief",
+        "season": "winter",
+        "occasion": "formal / bridal / holiday editorial",
+        "consumerProfile": "luxury / bridal / design-conscious adult",
+        "trendNotes": "Reflects the ongoing trend of maximalist gold accents paired with natural stone and organic textures — particularly strong in bridal and holiday gifting aesthetics. The ornate trinket dish aligns with the resurgence of heirloom-inspired jewelry presentation and tactile, handcrafted accessories.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "top",
+        "style": "bohemian",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-038",
+      "predicted": {
+        "description": "A close-up social gathering scene featuring multiple hands holding iconic red Solo cups filled with a pink beverage, suggesting a casual party or outdoor social event. Visible clothing fragments include denim jeans, a beige/cream utility or chore coat, a light blue casual shirt, and a mustard yellow fabric piece. Several hands display tattoos — notably a cross tattoo on a finger and colorful sleeve tattoos — along with decorated acrylic nails featuring minimalist nail art. The overall aesthetic is relaxed, youthful, and candid.",
+        "garmentType": "jacket",
+        "style": "streetwear",
+        "material": "denim",
+        "colorPalette": [
+          "red",
+          "beige",
+          "denim blue",
+          "mustard yellow",
+          "light blue"
+        ],
+        "pattern": "solid",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "young adult",
+        "trendNotes": "Body art and self-expression through tattoos and nail art remain strong signals in Gen Z streetwear culture; the red Solo cup is a perennial Americana social prop reinforcing casual, festival, and collegiate aesthetics.",
+        "location": {
+          "continent": "North America",
+          "country": "United States",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "coat",
+        "style": "classic",
+        "material": "wool",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-039",
+      "predicted": {
+        "description": "A South Asian bridal ensemble featuring a light powder-blue dupatta (veil) with intricate golden zari embroidery and floral motifs draped over the head and partially covering the face. The matching lehenga or suit displays dense gold threadwork across the bodice. The model wears elaborate bridal jewelry including a maang tikka (forehead ornament) with a large green gemstone center, bangles stacked on the wrist, mehndi (henna) on the hand, and cocktail rings. Makeup is dramatic with heavy kohl-lined eyes, bold lashes, and deep rose-pink lips. The warm amber bokeh background suggests an indoor wedding venue or studio setting with ambient event lighting.",
+        "garmentType": "lehenga choli with dupatta",
+        "style": "South Asian bridal couture",
+        "material": "chiffon organza with zari embroidery",
+        "colorPalette": [
+          "powder blue",
+          "gold",
+          "ivory",
+          "amber",
+          "rose"
+        ],
+        "pattern": "embroidered floral zari motifs",
+        "season": "winter",
+        "occasion": "wedding / bridal formal",
+        "consumerProfile": "luxury South Asian bridal market, ages 20–35",
+        "trendNotes": "Pastel bridal tones, particularly powder blue and silver, are a rising alternative to traditional red in South Asian weddings, often paired with heavy gold threadwork and maximalist jewelry for a regal yet modern aesthetic.",
+        "location": {
+          "continent": "Asia",
+          "country": "Pakistan or India",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "jacket",
+        "style": "edgy",
+        "material": "leather",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-040",
+      "predicted": {
+        "description": "A young woman wearing a relaxed-fit crew-neck grey marl sweater with a fine knit texture, styled casually for an urban street setting. She accessorizes with small stud earrings and a delicate layered necklace. Her long dark wavy hair is loosely worn, and she sports dark tortoiseshell cat-eye glasses. The overall silhouette is relaxed and effortless, photographed against a blurred cityscape with wide boulevards and modern high-rise buildings.",
+        "garmentType": "sweater",
+        "style": "minimalist",
+        "material": "cotton-blend knit",
+        "colorPalette": [
+          "heather grey",
+          "dark brown",
+          "black",
+          "warm beige"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "casual",
+        "consumerProfile": "young adult",
+        "trendNotes": "Effortless everyday minimalism driven by neutral tones and relaxed silhouettes; accessory stacking with delicate layered necklaces remains a key micro-trend for Gen Z and Millennial consumers.",
+        "location": {
+          "continent": "South America",
+          "country": "Brazil",
+          "city": "São Paulo"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "minimalist",
+        "material": "silk",
+        "occasion": "evening",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": true,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-041",
+      "predicted": {
+        "description": "A woman in a flowing white midi dress with spaghetti straps, a ruffled neckline, and delicate eyelet/broderie anglaise embroidery throughout the skirt hem walks through a blooming lavender field holding a white watering can. She wears a flat-brimmed straw boater hat with a black ribbon band and open-toe sandals. Beside her walks a small child in a white top, mauve trousers, and a straw hat with a red stripe, clinging to the woman's side. The scene is captured from behind, evoking a romantic pastoral narrative with soft overcast lighting.",
+        "garmentType": "midi dress",
+        "style": "romantic cottage-core / bohemian",
+        "material": "cotton broderie anglaise",
+        "colorPalette": [
+          "white",
+          "lavender",
+          "straw",
+          "mauve",
+          "green"
+        ],
+        "pattern": "embroidered eyelet",
+        "season": "summer",
+        "occasion": "casual / leisure",
+        "consumerProfile": "millennial woman, family-oriented, nature-inspired lifestyle, aspirational rustic-chic",
+        "trendNotes": "Aligns with the ongoing cottage-core and quiet luxury crossover trend — broderie anglaise remains a perennial summer staple; boater hats signal a resurgence of structured headwear in pastoral editorial contexts; coordinated mother-child styling is a growing influence on family fashion content.",
+        "location": {
+          "continent": "Europe",
+          "country": "France or Bulgaria (lavender field region)",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "jacket",
+        "style": "streetwear",
+        "material": "nylon",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-042",
+      "predicted": {
+        "description": "A person wearing a plain white crew-neck short-sleeve t-shirt with a relaxed, slightly oversized silhouette. The garment is minimally styled with no visible graphics or embellishments. The scene depicts a moving or logistics context with numerous stacked cardboard boxes near a cargo van, creating a utilitarian, workwear-adjacent visual context. The warm ambient lighting casts golden tones across the neutral scene.",
+        "garmentType": "t-shirt",
+        "style": "minimalist",
+        "material": "cotton",
+        "colorPalette": [
+          "white",
+          "tan",
+          "beige",
+          "warm brown",
+          "shadow grey"
+        ],
+        "pattern": "solid",
+        "season": "summer",
+        "occasion": "casual",
+        "consumerProfile": "everyday adult, workwear, utilitarian",
+        "trendNotes": "Clean white basics remain a cornerstone of capsule wardrobes; the stark contrast against warm kraft cardboard tones echoes raw, industrial editorial aesthetics trending in contemporary menswear mood boards.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "shorts",
+        "style": "casual",
+        "material": "linen",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-043",
+      "predicted": {
+        "description": "A stand of slender, pale-barked trees with sparse canopy foliage set against a dusky sky, creating a hauntingly elegant natural scene. The composition evokes minimalist silhouettes with vertical linear tension, bare structural forms punctuated by soft green leaf clusters at the crown. The earthy forest floor of rust-brown dried leaves and patches of moss grounds the palette. This scene serves as a textural and tonal reference rather than featuring a garment — ideal for mood board use to inspire elongated silhouettes, raw natural textures, and muted organic color stories.",
+        "garmentType": "no garment present — nature reference",
+        "style": "minimalist",
+        "material": "raw linen or bark-textured fabric",
+        "colorPalette": [
+          "ash white",
+          "warm taupe",
+          "rust brown",
+          "muted sage",
+          "pale sky blue"
+        ],
+        "pattern": "solid with organic texture",
+        "season": "fall",
+        "occasion": "casual",
+        "consumerProfile": "eco-conscious creative, luxury minimalist",
+        "trendNotes": "Reflects the growing 'quiet nature' trend in fashion — raw organic textures, undyed or vegetable-dyed fabrics, and elongated structural silhouettes inspired by forest environments. Aligns with biophilic design aesthetics gaining momentum in sustainable luxury.",
+        "location": {
+          "continent": "Asia",
+          "country": "Thailand or Southeast Asia",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "cardigan",
+        "style": "casual",
+        "material": "knit",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-044",
+      "predicted": {
+        "description": "This image does not depict a fashion garment or scene. It shows a gourmet beef burger served on a dark slate board, featuring a sesame-seeded brioche bun, a thick beef patty, melted cheddar cheese, a fried egg, sliced tomato, fresh green leaves (likely watercress or spinach), and a white sauce drizzle. A cocktail skewer holds the burger together. The composition is a close-up food photography shot with shallow depth of field.",
+        "garmentType": "N/A — image contains food, not fashion",
+        "style": "N/A",
+        "material": "N/A",
+        "colorPalette": [
+          "golden brown",
+          "red",
+          "yellow",
+          "green",
+          "cream"
+        ],
+        "pattern": "N/A",
+        "season": "unknown",
+        "occasion": "N/A",
+        "consumerProfile": "N/A",
+        "trendNotes": "This image is not suitable for a fashion mood board. It depicts a gourmet burger in a restaurant setting and contains no clothing, accessories, or fashion-relevant visual elements.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "gown",
+        "style": "formal",
+        "material": "satin",
+        "occasion": "formal",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-045",
+      "predicted": {
+        "description": "A young woman with dark wavy hair and round tortoiseshell glasses sits cross-legged on a striped floor rug beside a decorated Christmas tree, wrapping holiday gifts. She wears a chunky oversized grey knit sweater with a relaxed turtleneck collar paired with red-and-white gingham check wide-leg pajama-style trousers. A silver watch accents her wrist. The ensemble is cozy, effortlessly layered, and seasonally festive, embodying a hygge-inspired holiday aesthetic. A Shiba Inu dog lounges beside her, reinforcing the warm domestic scene.",
+        "garmentType": "knitwear top + trousers (two-piece casual set)",
+        "style": "hygge / cozy casual / Scandinavian minimalist",
+        "material": "wool-blend knit (sweater), cotton flannel (trousers)",
+        "colorPalette": [
+          "heather grey",
+          "red",
+          "white",
+          "cream"
+        ],
+        "pattern": "solid (sweater) / gingham check (trousers)",
+        "season": "winter",
+        "occasion": "casual / loungewear / holiday at-home",
+        "consumerProfile": "young adult, comfort-driven, lifestyle-oriented, pet owner",
+        "trendNotes": "Reflects the growing 'cozy luxury' and elevated loungewear trend — pajama-inspired daywear with textural knits remains dominant in winter casualwear collections. Gingham in holiday red is a recurring seasonal pattern nod.",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "suit",
+        "style": "business",
+        "material": "wool",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-046",
+      "predicted": {
+        "description": "A serene winter landscape scene serving as a mood board inspiration rather than a garment photo. The scene features frost-covered bare deciduous trees framing a partially frozen river or lake, with snow blanketing the foreground ground. The atmosphere is crisp, ethereal, and monochromatic with soft blue-white tones. The mist rising from the open water creates a dreamlike quality. This image inspires garments with airy, structured silhouettes — think oversized sculptural coats, frosted organza layering, or textured knit wraps that echo the raw, organic beauty of a cold winter morning.",
+        "garmentType": "coat",
+        "style": "minimalist",
+        "material": "wool",
+        "colorPalette": [
+          "ice blue",
+          "white",
+          "silver grey",
+          "pale mist",
+          "bark brown"
+        ],
+        "pattern": "solid",
+        "season": "winter",
+        "occasion": "casual",
+        "consumerProfile": "luxury",
+        "trendNotes": "Evokes the 'quiet luxury' and nature-inspired minimalism trend — raw organic textures, frost-white palettes, and sculptural outerwear silhouettes aligned with Scandinavian and Japanese wabi-sabi aesthetics gaining traction in contemporary designer collections.",
+        "location": {
+          "continent": "North America",
+          "country": "United States or Canada",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "trousers",
+        "style": "minimalist",
+        "material": "linen",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": true,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-047",
+      "predicted": {
+        "description": "This image does not contain a fashion garment or human subject. It depicts a dark-colored helicopter in flight against a flat, overcast grey sky. The helicopter appears to be a Bell 407 or similar light utility model, featuring a sleek fuselage, skid landing gear, and a two-blade tail rotor. No clothing, accessories, or fashion elements are present in this photograph.",
+        "garmentType": "N/A - no garment present",
+        "style": "N/A",
+        "material": "N/A",
+        "colorPalette": [
+          "grey",
+          "dark navy",
+          "white",
+          "silver"
+        ],
+        "pattern": "N/A",
+        "season": "unknown",
+        "occasion": "N/A",
+        "consumerProfile": "N/A",
+        "trendNotes": "This image is not suitable for a fashion mood board. It may be relevant to an aviation, industrial, or transportation design context. If used metaphorically, the muted grey palette and sleek mechanical form could inspire a minimalist, utilitarian, or techwear aesthetic direction.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "jeans",
+        "style": "streetwear",
+        "material": "denim",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-048",
+      "predicted": {
+        "description": "This image does not depict a fashion garment or style inspiration. It shows a CX-520 Auto Refractometer, a medical ophthalmic device used in eye examinations. The machine features a small display screen showing a curved measurement graphic, a thermal receipt printer with a printed readout, and a joystick control knob. The device is gray/off-white in color and sits in what appears to be a clinical optometry or ophthalmology setting.",
+        "garmentType": "N/A - no garment present",
+        "style": "N/A - medical/clinical equipment image",
+        "material": "N/A - hard plastic and electronic components",
+        "colorPalette": [
+          "light gray",
+          "off-white",
+          "beige",
+          "black"
+        ],
+        "pattern": "solid",
+        "season": "unknown",
+        "occasion": "N/A - medical/clinical context",
+        "consumerProfile": "N/A - intended for healthcare professionals",
+        "trendNotes": "This image is not suitable for a fashion mood board. It depicts ophthalmic diagnostic equipment and contains no fashion-relevant visual content.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "romantic",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-049",
+      "predicted": {
+        "description": "A woman sits cross-legged on a linen-toned bed, wearing a light grey sleeveless camisole top with thin spaghetti straps and relaxed wide-leg trousers in a black-and-white narrow vertical stripe pattern. The silhouette is effortlessly casual and elongated — the loose-fit pants contrast softly with the fitted tank. She is barefoot, petting a small white dog wearing a red collar. The room is styled with dark olive/grey pillows, stacked books, and large tropical houseplants, creating a warm, lived-in urban sanctuary aesthetic.",
+        "garmentType": "trousers",
+        "style": "minimalist",
+        "material": "cotton",
+        "colorPalette": [
+          "light grey",
+          "off-white",
+          "black",
+          "dark olive",
+          "warm beige"
+        ],
+        "pattern": "striped",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "young adult urban creative, comfort-forward, style-conscious",
+        "trendNotes": "Wide-leg relaxed trousers paired with minimalist camisoles continue to dominate the effortless loungewear-to-streetwear crossover trend; the mix of fitted top and voluminous bottom reflects the ongoing contrast-silhouette movement popular in contemporary minimalist fashion.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "coat",
+        "style": "classic",
+        "material": "wool",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-050",
+      "predicted": {
+        "description": "This image does not depict a fashion garment or human subject. It shows a small bird — likely a swallow or flycatcher — perched on a twisted wire fence in a rural agricultural setting. The background features a mowed golden field and dense green treeline. No clothing, accessories, or fashion elements are present in this image.",
+        "garmentType": "none",
+        "style": "none",
+        "material": "none",
+        "colorPalette": [
+          "golden yellow",
+          "forest green",
+          "gray",
+          "white",
+          "brown"
+        ],
+        "pattern": "none",
+        "season": "summer",
+        "occasion": "none",
+        "consumerProfile": "none",
+        "trendNotes": "No fashion trend applicable. If used as a mood board texture reference, the earthy tones, organic textures, and rural pastoral aesthetic could inspire a naturalist or countryside-themed collection with warm neutrals and organic materials.",
+        "location": {
+          "continent": "North America",
+          "country": "United States or Canada",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "activewear",
+        "style": "athletic",
+        "material": "spandex",
+        "occasion": "athletic",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-051",
+      "predicted": {
+        "description": "A dramatic ocean wave crashes over the edge of a tidal rock pool, sending a towering plume of white sea foam and spray into the air. Swimmers are visible in the calm turquoise pool in the foreground, contrasting with the raw power of the deep teal ocean beyond the pool wall. A figure in dark swimwear stands on the pool ledge to the left, partially obscured by the wave's spray. The scene evokes raw natural energy, aquatic freedom, and coastal living.",
+        "garmentType": "swimwear",
+        "style": "coastal athletic",
+        "material": "lycra/nylon",
+        "colorPalette": [
+          "teal",
+          "white",
+          "deep navy",
+          "seafoam",
+          "charcoal"
+        ],
+        "pattern": "solid",
+        "season": "summer",
+        "occasion": "casual",
+        "consumerProfile": "active outdoor enthusiast, coastal lifestyle, health-conscious adult",
+        "trendNotes": "Tidal pool and ocean bath culture is rising as a wellness aesthetic — raw, unfiltered coastal environments inspire swimwear lines that blend performance with minimalism. The juxtaposition of controlled aquatic spaces against untamed ocean energy aligns with the 'wild swimming' movement trending in activewear and lifestyle branding.",
+        "location": {
+          "continent": "Oceania",
+          "country": "Australia",
+          "city": "Bondi Beach (Bondi Icebergs Pool)"
+        }
+      },
+      "expected": {
+        "garmentType": "coat",
+        "style": "classic",
+        "material": "cotton",
+        "occasion": "workwear",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-052",
+      "predicted": {
+        "description": "A man wearing a double-breasted navy blue military-inspired jacket with ornate gold embroidery along the collar, lapels, and lower hem. The jacket features large gold buttons arranged in two symmetrical rows, a mandarin-style stand collar with gold trim detailing, and elaborate baroque-style gold scroll motifs on the body. The silhouette is structured and tailored, reminiscent of 19th-century European military dress uniforms or bellhop livery. The subject has a styled blond mustache and side-parted hair, reinforcing a period-inspired aesthetic. He stands against a marble or stone ledge with a trailing ivy plant in the background, suggesting a grand interior setting such as a luxury hotel lobby.",
+        "garmentType": "jacket",
+        "style": "neo-Victorian military heritage",
+        "material": "wool-blend or velvet",
+        "colorPalette": [
+          "navy blue",
+          "gold",
+          "ivory",
+          "dark green"
+        ],
+        "pattern": "embroidered",
+        "season": "fall",
+        "occasion": "formal",
+        "consumerProfile": "luxury heritage fashion enthusiast, theatrical or costume-adjacent consumer, high-end menswear collector",
+        "trendNotes": "Reflects the growing neo-Victorian and military-inspired menswear trend seen in luxury houses such as Gucci and Alexander McQueen; ornate embroidery and double-breasted silhouettes are experiencing a strong revival in gender-fluid luxury fashion editorials.",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "shirt",
+        "style": "casual",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-053",
+      "predicted": {
+        "description": "A serene rural landscape at golden hour featuring a gravel country road stretching toward the horizon, flanked by lush green meadows and a distant treeline silhouetted against a warm sunset. The scene evokes a naturalistic, earthy aesthetic with dramatic lens flare and soft diffused light — ideal as a mood board backdrop for grounded, nature-inspired fashion collections. No garment is present; the image serves as an environmental texture and color reference.",
+        "garmentType": "unknown",
+        "style": "rustic countryside / bohemian naturalism",
+        "material": "linen, raw cotton, or washed canvas suggested by terrain texture",
+        "colorPalette": [
+          "golden amber",
+          "sage green",
+          "slate grey",
+          "warm ivory",
+          "dusk blue"
+        ],
+        "pattern": "solid / organic texture",
+        "season": "fall",
+        "occasion": "casual outdoor / countryside editorial",
+        "consumerProfile": "conscious lifestyle consumer, aged 25–45, drawn to slow fashion and artisan aesthetics",
+        "trendNotes": "Aligns with the ongoing rural romanticism and 'quiet luxury outdoors' trend — earthy palettes, unstructured silhouettes, and sustainable fabrications dominating SS/AW collections from brands like Toteme, Apiece Apart, and Lemaire.",
+        "location": {
+          "continent": "Europe",
+          "country": "Finland or Sweden (inferred from flat agricultural landscape and light quality)",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "blazer",
+        "style": "business",
+        "material": "wool",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-054",
+      "predicted": {
+        "description": "This image is not a fashion photograph but rather a sweeping aerial landscape view from the ramparts of a historic Scottish castle, featuring ancient stone fortifications with mounted cannons in the foreground and a verdant town and river valley stretching to the horizon under a dramatic blue sky with wispy cirrus clouds. Visitors in casual summer clothing — including blue tops and light layers — are visible near the cannons, suggesting relaxed tourist attire rather than styled fashion.",
+        "garmentType": "casual top",
+        "style": "casual tourist / everyday",
+        "material": "cotton",
+        "colorPalette": [
+          "blue",
+          "green",
+          "stone grey",
+          "white",
+          "brown"
+        ],
+        "pattern": "solid",
+        "season": "summer",
+        "occasion": "casual",
+        "consumerProfile": "general consumer, tourist, family traveler",
+        "trendNotes": "The landscape itself — rich emerald greens, aged sandstone, and expansive sky — offers strong palette inspiration for a heritage or countryside collection. Earthy neutrals paired with cobalt blue and soft grey could translate effectively into a Scottish countryside capsule wardrobe.",
+        "location": {
+          "continent": "Europe",
+          "country": "Scotland, United Kingdom",
+          "city": "Stirling"
+        }
+      },
+      "expected": {
+        "garmentType": "top",
+        "style": "bohemian",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": true,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-055",
+      "predicted": {
+        "description": "Two men dressed in traditional South Asian attire stand against a dramatic alpine backdrop featuring a glacial lake and rocky mountain terrain. The first man wears a loosely draped olive-brown shawl over a light shalwar kameez, accessorized with a black-and-white keffiyeh-style head covering and dark sunglasses, embodying a rugged, layered mountain aesthetic. The second man wears a structured navy blue shalwar kameez paired with a multi-toned plaid scarf draped around the neck and shoulders, completed with mirrored blue aviator sunglasses. Both outfits reflect functional layering adapted to cold high-altitude conditions while maintaining cultural identity.",
+        "garmentType": "shalwar kameez with draped shawl/scarf",
+        "style": "traditional ethnic, functional mountain layering",
+        "material": "wool shawl, cotton kameez, woven plaid scarf",
+        "colorPalette": [
+          "olive brown",
+          "navy blue",
+          "off-white",
+          "grey",
+          "plaid multicolor"
+        ],
+        "pattern": "solid with draped layering; plaid scarf accent",
+        "season": "fall/winter",
+        "occasion": "casual outdoor, cultural travel, mountain trekking",
+        "consumerProfile": "culturally rooted adult male traveler, heritage-conscious consumer",
+        "trendNotes": "Reflects growing global interest in heritage and indigenous dressing, utility-meets-tradition layering, and earth-toned mountain-ready fashion — resonant with the 'nomadic explorer' trend seen in contemporary menswear collections.",
+        "location": {
+          "continent": "Asia",
+          "country": "Pakistan",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "trousers",
+        "style": "streetwear",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-056",
+      "predicted": {
+        "description": "A close-up editorial portrait featuring a person with dark hair pulled into a minimalist top knot bun, partially obscured by two large dried palm fronds framing the face symmetrically. The skin is bare and natural, suggesting a no-makeup or minimal-makeup aesthetic. The background is a flat, muted grey-white studio wall. The composition evokes organic texture contrasted with clean negative space — a strong visual metaphor for natural, sustainable fashion narratives.",
+        "garmentType": "unknown",
+        "style": "minimalist, bohemian, editorial",
+        "material": "dried palm leaf (prop); no visible garment material",
+        "colorPalette": [
+          "warm beige",
+          "straw tan",
+          "grey",
+          "ivory",
+          "soft brown"
+        ],
+        "pattern": "solid",
+        "season": "spring",
+        "occasion": "editorial, campaign, mood board concept",
+        "consumerProfile": "conscious millennial or gen-z consumer, eco-luxury, slow fashion enthusiast",
+        "trendNotes": "Strong alignment with the 2024–2025 'organic minimalism' and 'nature as texture' macro trend — brands like Jacquemus, Aesop, and Loewe leverage dried botanicals and earthy props to signal sustainability and artisanal authenticity without overt branding.",
+        "location": {
+          "continent": "Europe",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "skirt",
+        "style": "elegant",
+        "material": "satin",
+        "occasion": "evening",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-057",
+      "predicted": {
+        "description": "A close-up shot of hands holding a clipboard with lined paper, actively writing with a dark pen. The visible clothing suggests dark trousers or pants on the lower body. The setting is a warm, plant-filled interior space with soft natural light, a white sofa visible in the background, and stacked books or magazines nearby. The overall aesthetic is calm, intellectual, and purposeful — evoking a creative professional or therapist's workspace environment.",
+        "garmentType": "trousers",
+        "style": "minimalist",
+        "material": "unknown",
+        "colorPalette": [
+          "black",
+          "warm beige",
+          "ivory",
+          "deep green",
+          "muted teal"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "workwear",
+        "consumerProfile": "creative professional, mid-career adult",
+        "trendNotes": "The scene reflects a quiet luxury and slow-living aesthetic trend — neutral tones, natural textures, indoor botanicals, and analog tools (pen and paper) resonate with the anti-digital, mindful productivity movement gaining traction in fashion and lifestyle branding.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "jacket",
+        "style": "casual",
+        "material": "nylon",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-058",
+      "predicted": {
+        "description": "A dramatically lit single yellow rose in full bloom accompanied by a small bud, photographed against a deep cobalt blue gradient background. The flower radiates luminous golden-yellow tones with tightly layered petals forming a classic high-centered silhouette. Dark serrated green leaves frame the lower stem, creating strong tonal contrast. The studio lighting isolates the subject with theatrical intensity, evoking luxury floral couture references and high-drama editorial aesthetics.",
+        "garmentType": "floral accent / embellishment reference",
+        "style": "romantic couture",
+        "material": "silk organza (inspired)",
+        "colorPalette": [
+          "golden yellow",
+          "cobalt blue",
+          "deep navy",
+          "olive green",
+          "amber"
+        ],
+        "pattern": "floral",
+        "season": "spring",
+        "occasion": "evening",
+        "consumerProfile": "luxury",
+        "trendNotes": "Bold complementary color blocking between saturated yellow and deep cobalt reflects a growing couture trend toward high-contrast botanical motifs, referencing designers like Valentino and Schiaparelli. The theatrical isolation of nature against dark backdrops aligns with maximalist 'dark romance' aesthetics gaining traction on luxury runways.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "suit",
+        "style": "formal",
+        "material": "wool",
+        "occasion": "formal",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-059",
+      "predicted": {
+        "description": "A young professional man seated at a cluttered office desk, wearing a slim-fit dark charcoal pinstripe suit jacket over a crisp white dress shirt, paired with a deep burgundy/wine-red tie. The suit features a structured shoulder silhouette and subtle vertical pinstripe texture. He holds a blue pen and a printed line graph chart, suggesting a business presentation or analytical meeting context. The overall look is polished yet energetic, complemented by his distinctive high-top twisted locs hairstyle that adds a modern, individual edge to the corporate ensemble.",
+        "garmentType": "suit jacket",
+        "style": "business formal",
+        "material": "wool blend",
+        "colorPalette": [
+          "charcoal",
+          "white",
+          "burgundy",
+          "dark grey"
+        ],
+        "pattern": "pinstripe",
+        "season": "fall",
+        "occasion": "workwear",
+        "consumerProfile": "young professional, urban corporate, 25–35",
+        "trendNotes": "The pairing of a classic pinstripe suit with a rich burgundy tie reflects a resurgence of 1980s power-dressing reimagined for modern workplaces; individuality expressed through natural hairstyling rather than garment deviation signals a broader trend of personal identity within formal dress codes.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "blazer",
+        "style": "streetwear",
+        "material": "polyester",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-060",
+      "predicted": {
+        "description": "A young male tourist walks through an ancient stone vaulted passageway, wearing a relaxed-fit tropical print shirt in white with green palm leaf motifs, paired with bold red shorts and black-and-white sneakers. He sports a black baseball cap worn low. The silhouette is casual and breezy — oversized top with mid-thigh shorts creating a laid-back resort aesthetic. The historic cobblestone tunnel and warm Mediterranean light add a travel-editorial dimension to the look.",
+        "garmentType": "shirt",
+        "style": "resort casual / streetwear",
+        "material": "cotton",
+        "colorPalette": [
+          "white",
+          "green",
+          "red",
+          "black"
+        ],
+        "pattern": "tropical floral / palm leaf print",
+        "season": "summer",
+        "occasion": "casual",
+        "consumerProfile": "young adult, travel-oriented, budget-conscious streetwear consumer",
+        "trendNotes": "Tropical print shirts paired with bold monochrome shorts continue to dominate resort and vacation streetwear; the color-blocking of white print top against red shorts reflects a strong Gen Z travel aesthetic popularized through social media travel content",
+        "location": {
+          "continent": "Europe",
+          "country": "Turkey",
+          "city": "Bodrum or Ephesus (ancient ruins context)"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "casual",
+        "material": "knit",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": true,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-061",
+      "predicted": {
+        "description": "An upward-looking (worm's-eye) perspective of a mature pine tree canopy against a vivid clear blue sky. The gnarled, dark-bark trunk radiates into multiple spreading branches adorned with long, soft green pine needles. The interplay of organic textures — rough furrowed bark, feathery needle clusters, and skeletal branch silhouettes — creates a dramatic natural tapestry. This image functions as a textural and chromatic reference rather than a garment photo.",
+        "garmentType": "outerwear (inspired reference — structured coat or cape)",
+        "style": "organic naturalist / avant-garde",
+        "material": "textured bark-effect jacquard or raw linen with fringe detail",
+        "colorPalette": [
+          "deep bark brown",
+          "sage green",
+          "sky blue",
+          "warm taupe",
+          "moss green"
+        ],
+        "pattern": "organic irregular texture / nature-print",
+        "season": "fall",
+        "occasion": "editorial / artistic statement",
+        "consumerProfile": "avant-garde creative, eco-conscious luxury consumer, ages 25–45",
+        "trendNotes": "Biophilic design continues to dominate runway narratives — bark-like textures, pine needle fringe, and earthy greens translated into sculptural outerwear align with the 2024–2025 'rewilding' fashion movement championed by designers exploring biomimicry.",
+        "location": {
+          "continent": "North America",
+          "country": "United States",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "shirt",
+        "style": "casual",
+        "material": "denim",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-062",
+      "predicted": {
+        "description": "A close-up still life composition featuring a weathered wooden staff or rod fitted with a polished silver/chrome metal ferrule or tip connector, resting against rustic aged wooden planks or branches arranged in a cross-like pattern. The monochromatic black-and-white photography emphasizes raw texture contrasts — the organic grain and patina of aged wood juxtaposed against the industrial gleam of the metal fitting. The scene evokes artisanal craftsmanship, wabi-sabi aesthetics, and utilitarian beauty.",
+        "garmentType": "accessory",
+        "style": "artisanal utilitarian",
+        "material": "wood and polished metal",
+        "colorPalette": [
+          "charcoal",
+          "silver",
+          "ash grey",
+          "near-black",
+          "off-white"
+        ],
+        "pattern": "solid",
+        "season": "fall",
+        "occasion": "editorial",
+        "consumerProfile": "avant-garde creative, luxury artisan",
+        "trendNotes": "Reflects the growing interest in raw material contrast dressing — pairing organic, imperfect natural elements with precision-engineered hardware details, echoing trends seen in brands like Bottega Veneta, Lemaire, and Dries Van Noten's accessory language.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "top",
+        "style": "party",
+        "material": "cotton",
+        "occasion": "evening",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-063",
+      "predicted": {
+        "description": "A young boy wearing a relaxed-fit graphic tee in heather grey with colorful blue and green lettering, paired with classic straight-leg medium-wash denim jeans and grey athletic sneakers. The outfit is effortlessly casual and age-appropriate, styled with a playful energy that matches the outdoor playground setting. The silhouette is loose and comfortable, typical of children's everyday wear.",
+        "garmentType": "t-shirt and jeans combo",
+        "style": "casual kidswear",
+        "material": "cotton jersey and denim",
+        "colorPalette": [
+          "heather grey",
+          "medium blue",
+          "white",
+          "green"
+        ],
+        "pattern": "graphic print",
+        "season": "spring",
+        "occasion": "casual",
+        "consumerProfile": "children's everyday wear, ages 4-7",
+        "trendNotes": "Graphic slogan tees paired with straight-cut denim remain a staple in children's casual fashion, reflecting the broader athleisure and comfort-first trend trickling down from adult streetwear into kidswear collections.",
+        "location": {
+          "continent": "North America",
+          "country": "United States",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "blazer",
+        "style": "business",
+        "material": "wool",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    },
+    {
+      "id": "fashion-064",
+      "predicted": {
+        "description": "This image does not contain a fashion subject. It features a close-up portrait of a tri-colored puppy (black, white, and tan markings) resting inside a wooden crate or box. The dog appears to be a mixed breed with Border Collie-like features. No garment, textile, or fashion-related content is present in the frame.",
+        "garmentType": "none",
+        "style": "none",
+        "material": "none",
+        "colorPalette": [
+          "black",
+          "white",
+          "tan",
+          "brown",
+          "warm wood"
+        ],
+        "pattern": "none",
+        "season": "unknown",
+        "occasion": "none",
+        "consumerProfile": "none",
+        "trendNotes": "This image is not suitable for a fashion mood board. It depicts an animal subject and contains no apparel, accessories, or styling references. Recommend replacing with an image featuring a human subject or textile detail.",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "sweatshirt",
+        "style": "casual",
+        "material": "cotton",
+        "occasion": "casual",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": true
+    },
+    {
+      "id": "fashion-065",
+      "expected": {
+        "garmentType": "trousers",
+        "style": "edgy",
+        "material": "leather",
+        "occasion": "evening",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "error": "Model output did not contain JSON",
+      "skipped": true
+    },
+    {
+      "id": "fashion-066",
+      "predicted": {
+        "description": "A young woman wearing a traditional Vietnamese Áo Dài in pristine white, featuring an ornate mandarin collar adorned with intricate gold embroidery and beaded detailing along the chest panel and cuffs. The garment has a fitted long-sleeve silhouette with a structured bodice. The model poses gracefully reaching toward pink crepe myrtle blossoms on a tree branch, set against a softly bokeh-blurred green garden background. The styling is elegant and culturally rooted, complemented by red lips, stud earrings, and red nail polish.",
+        "garmentType": "traditional dress (Áo Dài)",
+        "style": "traditional Vietnamese formal",
+        "material": "satin or silk blend",
+        "colorPalette": [
+          "white",
+          "gold",
+          "ivory",
+          "pink",
+          "green"
+        ],
+        "pattern": "embroidered with beaded detailing",
+        "season": "spring",
+        "occasion": "formal, cultural ceremony, festive",
+        "consumerProfile": "young adult, culturally conscious, special occasion",
+        "trendNotes": "Revival and modernization of traditional Southeast Asian heritage garments with luxe embellishment; the Áo Dài continues to gain global fashion recognition as a symbol of Vietnamese identity blending elegance with cultural pride.",
+        "location": {
+          "continent": "Asia",
+          "country": "Vietnam",
+          "city": "unknown"
+        }
+      },
+      "expected": {
+        "garmentType": "dress",
+        "style": "minimalist",
+        "material": "cotton",
+        "occasion": "workwear",
+        "location": {
+          "continent": "unknown",
+          "country": "unknown",
+          "city": "unknown"
+        }
+      },
+      "garmentTypeMatch": false,
+      "styleMatch": false,
+      "materialMatch": false,
+      "occasionMatch": false,
+      "locationMatch": false
+    }
+  ]
+}
